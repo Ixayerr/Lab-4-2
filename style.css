@@ -1,0 +1,344 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  white; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    list-style-type: none;
+    padding-top: 70px;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    float: left;
+    height: 20px;
+    margin-left: 5px;
+    padding: 10px 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+.right-block {
+	float: right;
+    background-color: orange;
+}
+.right-block:hover {
+    background-color: rgb(252, 194, 86);
+}
+section{
+    background-color: black;
+}
+section h1{
+    font-size: 4em;
+    margin: 0px 50px;
+}
+section h3{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.hero{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 60px 190px 80px 190px;
+}
+.button-video a{
+    font-size: 1.25em;
+    font-weight: 400;
+    color: aqua;
+    padding: 10px 40px;
+    border: 2px aqua solid;
+}
+.button-video a:hover{
+    color: white;
+    border:2px rgb(2, 200, 200) solid;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-block {
+    width: 45%; 
+    float: left; 
+    text-align: center; 
+  }
+  
+  .contact-logo {
+    display: block; 
+    margin: 20px auto; 
+  }
+  .container .contact-list dl {
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 40px 40px 40px 40px;
+  }
+.contact-block p {
+    font-size: 1em;
+    color: #fff;
+    margin: 20px 60px;
+}
+.contact-list dt {
+    padding: 0 0px 0 43px;
+}
+.contact-list dt, .contact-list dd {
+    margin-bottom: 25px;
+}
+dt {
+    font-weight: 700;
+    display: block;
+}
+
+.contact-info {
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 20px; 
+}
+
+.footer-bottom h3 {
+    text-align: center; 
+    margin-top: 0; 
+    color: aqua;
+  }
+
+.contact-list, a{
+    color: white;
+    padding: 0px 5px 0px 5px;
+}
+
+.footer-bottom a {
+    color: white;
+ }
+
+footer {
+    background-color: #1b1b1b;
+    padding: 0 90px 0 90px;
+}
+.col-lg-5 p{
+    text-align: left;
+}
+.contact-logo {
+    padding: 0 370px 0 0;
+}
+a:hover{
+    color: aqua;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.contact-info div {
+    padding: 0px 0px 0px 30px; 
+}
+
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-list li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+.как-то-1{
+    color: rgb(30, 29, 29);
+    font-size: 2em;
+    text-align: center;
+}
+
+.как-то-назвать a {
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+  }
+  
+  .как-то-назвать {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .как-то-назвать img {
+    width: 95%; 
+  }
+
+.название img{
+    width: 20%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .block {
+    width: 15%; 
+  }
+  .block img {
+    width: 20%; 
+  }
+  
+  .block p{
+    text-align: center; 
+  }
+  .block a{
+    background-color: orange;
+    padding: 10px;
+  }
+  
+  .image-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 50%;
+    padding: 10px 20px 30px;
+    margin: 0px 0px 50px 8px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.Approach {
+    padding: 0 200px 0 400px;
+    width: 300%;
+}
+.Approach h1{
+    color: rgb(30, 29, 29);
+    font-size: 2em;
+    text-align: left;
+}
+.Approach p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.numer{
+    color: black;
+    font-size: 40px;
+}
+.buutonAproach {
+    font-size: 13px;
+    background-color: orange;
+    padding: 15px 10px;
+}
+.buutonAproach:hover {
+    background-color: rgb(241, 186, 84);
+}
+
+.Scrum {
+    padding: 0 300px 0 0px;
+    width: 300%;
+}
+
+.imgScrum {
+    width: 30%;
+}
+
+.Our_Work{
+    width: 60%;
+    padding: 0 0px 0 300px;
+}
+.navigOurWork {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    padding: 10px 100px 30px 100px;
+}
+.navigOurWork a{
+    color: gray;
+}
+.navigOurWork a:hover{
+    color: aqua;
+}
+.buttonOurWork {
+    padding: 50px 15px;
+}
+
+.buttonOurWork a{
+    color: black;
+    font-size: 13px;
+    border: 2px black solid;
+    padding: 15px 10px;
+}
+.buttonOurWork a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.imgOurWork {
+    position: relative;
+    overflow: hidden;
+}
+.imgOurWork img{
+    width: 30%;
+}
+.imgOurWork img:hover{
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+.imgfooter img{
+    width: 60%;
+}
+.imgfooter {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 100px 20px 300px;
+}
+.imgfooter p{
+    color: black;
+}
+.imgfooter img{
+    width: 70%;
+}
+.imgfooter2{
+    padding: 50px 0 0 0;
+}
+.imgfooter2 p {
+    padding: 25px 0 0 0;
+}
+
